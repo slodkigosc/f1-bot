@@ -1,0 +1,15 @@
+{
+  "name": "f1-bot",
+  "version": "1.0.0",
+  "description": "F1 Typowanie Bot 2026",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}
